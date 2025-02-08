@@ -1,9 +1,11 @@
 * {
   margin: 0;
   text-align: start;
+
 }
-html{
+html body{
   background: #252525;
+  
 }
 
 #root {
