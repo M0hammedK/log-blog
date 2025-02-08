@@ -1,11 +1,11 @@
 // pages/index.tsx
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Home from "./blog/page";
+import Home from "../pages/blog/page";
 import Create from "./blog/Create";
-import NotFound from "./NotFound";
+import NotFound from "../pages/NotFound";
 import { useRouter } from "next/router";
-import BlogDetails from "./blog/[id]/BlogDetails";
+import BlogDetails from "../pages/blog/[id]/blogDetails";
 
 const Index = () => {
   const router = useRouter();
